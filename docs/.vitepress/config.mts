@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "AtomGlimpses",
-  description: "AtomGlimpses组织官网",
+  title: "Atomicglimpses",
+  description: "Atomicglimpses组织官网",
   head: [
     [
       'script',
@@ -33,11 +33,11 @@ export default defineConfig({
   themeConfig: {
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/AtomGlimpses/freeCodeWebsite' }
+      { icon: 'github', link: 'https://github.com/Atomicglimpses/freeCodeWebsite' }
     ],
     footer: {
-      message: 'Released under the GPL-3.0 license.',
-      copyright: 'Copyright© 2025 AtomGlimpses, All rights reserved.'
+      message: 'Released under the GPL-3.0 license. | <a href="https://status.atomglimpses.cn/" target="_blank">系统状态</a> | 萌备20231229号',
+      copyright: 'Copyright© 2025 Atomicglimpses Organization, All rights reserved.'
     }
   },
 })
